@@ -1,0 +1,134 @@
+body{
+    background-color:#7C7398;
+}
+
+h1{
+    text-align:center;
+    color: #99ccff;
+}
+
+h2{
+    font-size: 26px;
+    margin-bottom:0;
+}
+
+h3{
+    font-size:22px;
+}
+
+button{
+    background-color:#99ccff;
+    margin-bottom:20px;
+    font-weight:bold;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:focus {
+    outline:0;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.row{
+    display: inline-flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.item{
+    display:block;
+    margin:10px;
+    width:100px;
+    height:100px;
+    background-color: #807B92;
+
+}
+
+.box{
+    margin:auto;
+    margin-bottom:30px;
+    display:block;
+    border-style:solid;
+    border-color:#99ccff;
+    background-color: #99ccff;
+    border-radius:25px;
+    width:80%;
+    height:220px;
+}
+
+#big-container{
+    margin:auto;
+    width:940px;
+    height:660px;
+}
+
+#container{
+    float:left;
+    padding: 20px;
+    width:720px;
+    height:660px;
+    background-color:#9C96B2;
+    
+}
+
+#control-panel{
+    background-color: #8E89A2 ;
+    padding-top:20px;
+    padding-bottom:20px;
+    height:660px;
+    width:180px;
+    text-align:center;
+    float:right;
+}
+
+#tiles-left{
+    margin:auto;
+    font-size:30px;
+}
+
+#speed{
+    margin:auto;
+    font-size:50px;
+}
+
+#minus{
+    position:absolute;
+    display: block;
+    background-color:#99ccff;
+    margin-top:30px;
+    margin-left: 20px;
+    font-weight:bold;
+    border: solid;
+    padding:5px;
+    border-radius:999px;
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#plus{
+    position:absolute;
+    display: block;
+    background-color:#99ccff;
+    margin-top:30px;
+    margin-left: 80px;
+    font-weight:bold;
+    border: solid;
+    padding:5px;
+    border-radius:999px;
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#percentage{
+    margin-top:10px;
+}
